@@ -1,13 +1,37 @@
-User Management System (MVC)
-This User Management System is a simple web application built using the MVC architecture. It allows for basic user functionalities like registration, login, and profile management. Admins can manage user accounts and roles via a dashboard. The system implements secure user authentication, role-based access control (RBAC), and basic data validation.
+# Spring MVC Project
 
-Features:
-User registration and login
-Profile management
-Admin dashboard for user management
-Role-based access control
-Session management and data validation
-Technologies:
-Frontend: HTML, CSS, Angular
-Backend: Java
-Database: MySQL
+A small Spring MVC project built to get hands-on experience with the basic workflow of a Java web application.
+
+The main focus of this project was understanding how a request moves through the application, from the controller to the service and data-access layers, and finally back to the view.
+
+## What I Worked With
+
+- Spring MVC
+- Java
+- JSP
+- Maven
+- MySQL
+- CRUD operations
+- Form handling and data binding
+- Request mapping
+- Controller, Service and Repository layers
+- Database interaction
+
+## Application Flow
+
+```text
+Browser
+   ↓
+Controller
+   ↓
+Service
+   ↓
+Repository
+   ↓
+MySQL
+   ↓
+Service
+   ↓
+Controller
+   ↓
+JSP
